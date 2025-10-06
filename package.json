@@ -1,0 +1,16 @@
+{
+  "name": "bajaj-api-test",
+  "version": "1.0.0",
+  "description": "REST API for data processing and categorization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["rest-api", "express", "bfhl"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
