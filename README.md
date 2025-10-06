@@ -157,16 +157,3 @@ Input: `["A", "ABcD", "DOE"]`
 - Returns `500` on unexpected server errors
 - All errors include `is_success: false`
 
-## Deployment
-
-This API can be deployed to:
-- Railway
-- Render
-- Vercel (with serverless adaptation)
-- Heroku
-- Any Node.js hosting provider
-
-Make sure to:
-1. Set the `PORT` environment variable if required by your host
-2. Update user-specific constants (name, DOB, email, roll number)
-3. Test the `/bfhl` endpoint after deployment
