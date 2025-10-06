@@ -6,11 +6,11 @@ const app = express();
 app.use(express.json());
 
 // === Configure these for your submission ===
-const FULL_NAME = 'john_doe';          // lowercase, underscore separated
-const DOB_DDMMYYYY = '17091999';      // ddmmyyyy format
+const FULL_NAME = process.env.FULL_NAME || 'nikit_patidar';          // lowercase, underscore separated
+const DOB_DDMMYYYY = process.env.DOB_DDMMYYYY || '25122003';          // ddmmyyyy format (UPDATE THIS!)
 const USER_ID = `${FULL_NAME}_${DOB_DDMMYYYY}`;
-const EMAIL = 'john@xyz.com';
-const ROLL_NUMBER = 'ABCD123';
+const EMAIL = process.env.EMAIL || '112215125@cse.iiitp.ac.in';
+const ROLL_NUMBER = process.env.ROLL_NUMBER || '112215125';
 // =========================================
 
 /**
